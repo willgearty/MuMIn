@@ -347,6 +347,8 @@ S3method(coeffs, asreml)
 
 S3method(nobs, phylolm)
 S3method(logLik, phylolm)
+S3method(nobs, phyloglm)
+S3method(logLik, phyloglm)
 
 S3method(coefTable, cplm)
 S3method(coefTable, cpglmm)
