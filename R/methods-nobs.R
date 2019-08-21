@@ -75,7 +75,8 @@ function (object, ...) object$results[['n']]
 
 `nobs.pgls` <-
 `nobs.logistf` <-
-`nobs.phylolm` <- 
+`nobs.phylolm` <-
+`nobs.phyloglm` <- 
 function (object, ...)
 object$n
 
