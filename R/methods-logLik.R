@@ -128,6 +128,15 @@ function (object, ...) {
 	class(res) <- "logLik"
 	res
 }
+					   
+`logLik.phyloglm` <-
+function (object, ...) {
+        res <- object$logLik
+        attr(res, "df") <-  object$d + 1
+        attr(res, "nobs") <-  object$n
+        class(res) <- "logLik"
+        res
+}
 
 `logLik.cplm` <-
 ## based on stats:::logLik.glm
